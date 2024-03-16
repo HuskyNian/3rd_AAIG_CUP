@@ -1,0 +1,8 @@
+4.0      64,128,64   No BN in layers,   25eps  LB: 0.69
+4.1                      with drop layers and no BN ,
+5.1     64,128,64  drop0.5                25eps,  LB:0.69
+5.2      64,128,64，drop0.5             25 eps, 0.1 hold out, LB 0.68
+
+
+6.5      64 128 64  ，    batch_size:500 lr:0.001,ep:18,two drop
+6.6 close all random seed set

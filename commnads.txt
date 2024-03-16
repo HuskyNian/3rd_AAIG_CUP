@@ -1,0 +1,12 @@
+docker run -idt -v 挂载数据路径:/tcdata -p 8080:8080 -p 8081:8081镜像名:版本 bash
+
+docker exec -it container_id bash
+
+process.size:8000m
+off-heap.size:3072m
+
+
+web: localhost:8080   localhost:8081
+
+
+docker run -idt -v D:/ai竞赛/tianchi-3rd-AAIG-CUP/final:/tcdata -p 8080:8080 -p 8081:8081     bash
